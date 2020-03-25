@@ -1,6 +1,35 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+const triple = function(num){
+  return num * 3;
+}
+
+const tripleAll = function(numbers){
+  return numbers.map(triple);
+}
+
+const getNegativeValue = function(num){
+  if (num > 0){
+    return num * -1;
+  } else {
+    return num
+  }
+}
+
+const negativeValues = function(numbers){
+  return numbers.map(getNegativeValue);
+}
+
+const makeQuestion = function(str){
+  return str +'?'
+}
+
+const questionings = function(str){
+  return str.map(makeQuestion)
+}
+
+
 
 
 
